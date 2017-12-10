@@ -1,0 +1,19 @@
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/ico" href="">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Net Neutrality Browser</title>
+	</head>
+
+	<body>
+		<form class="w3-container w3-margin-top">
+			<input id="website" class="w3-input w3-border txtbox" placeholder="Website" type="text" value="https://" required>
+			<button type="button" class="w3-btn w3-padding w3-red w3-right w3-margin-top" style="width:120px" onclick="go()">GO</button>
+		</form>
+
+		<webview id="foo" src="home.html" style="display:inline-flex; width:1280px; height:520px"></webview>
+
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>
