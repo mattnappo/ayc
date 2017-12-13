@@ -12,7 +12,6 @@ function redirect(next) {
 function throttle(website) {
   for(var i = 0; i < origin.length; i++) {
     if(origin[i] == website) {
-
       redirect(redir[i]);
     }
   }
